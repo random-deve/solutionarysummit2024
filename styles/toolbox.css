@@ -5,15 +5,9 @@
   background-size: 150px;
 }
 
-body {
-  padding-top: 253px;
-  text-align: center;
-}
-
 .sustainabilityCompassText {
   margin: 150px 100px 100px 800px;
   margin-left: 900px;
-  
 }
 
 @media screen and (max-width: 1600px) {
