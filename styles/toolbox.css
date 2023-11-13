@@ -64,7 +64,20 @@ body {
   border: 0px rgb(245, 245, 245);
   vertical-align: middle;
   padding: 1px 1px;
+}
+
+.leftFloat {
   float: left;
-  width: 40%;
+  width: 35%;
   margin-left: 10%;
+  margin-right: 2%;
+  margin-top: 15px;
+}
+
+.rightFloat {
+  float: right;
+  width: 40%;
+  margin-right: 10%;
+  margin-left: 2%;
+  margin-top: 15px;
 }
