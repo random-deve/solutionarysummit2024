@@ -20,3 +20,7 @@
 .speaker p {
   width: 60%;
 }
+
+#speaker1 {
+  transform: translateX(50px);
+}
