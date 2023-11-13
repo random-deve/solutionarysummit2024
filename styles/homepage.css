@@ -7,7 +7,7 @@ h1 {
   color: black;
   font-size: 3em;
   margin: auto;
-  max-width: 50%;
+  max-width: 80%;
 }
 
 #register {
@@ -20,7 +20,7 @@ h1 {
   z-index: 0;
   position: relative;
   top: 250px;
-  width: 40%;
+  width: 80%;
   text-align: center;
   margin: auto;
 }
