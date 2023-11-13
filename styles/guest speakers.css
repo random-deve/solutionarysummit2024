@@ -4,3 +4,15 @@
   background-repeat: no-repeat;
   background-size: 200px;
 }
+
+#buffer {
+  height: 250px;
+}
+
+.buffer2 {
+  height: 50px;
+}
+
+.speaker {
+  transform: translateX(-100px);
+}
