@@ -10,6 +10,36 @@
   margin-left: 900px;
 }
 
+table {
+  margin: 50px 200px 50px 200px;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  text-align: left;
+}
+
+th.Nature, td.Nature {
+  background-color: green;
+}
+
+th.Economy, td.Economy {
+  background-color: blue;
+}
+
+th.Society, td.Society {
+  background-color: orange;
+}
+
+th.Wellbeing, td.Wellbeing {
+  background-color: red;
+}
+
+
 @media screen and (max-width: 1600px) {
   .sustainabilityCompassText {
     margin: 150px 50px 100px 800px

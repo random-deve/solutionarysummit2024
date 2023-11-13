@@ -1,7 +1,10 @@
+body {
+  padding-top: 300px;
+}
+
 #sec1 {
   width: 80%;
   padding: 10px;
-  top: 250px;
   position: relative;
   margin: auto;
   text-align: center;

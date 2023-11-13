@@ -119,20 +119,6 @@ p {
   padding-left: 100px;
 }
 
-table {
-  margin: 50px 200px 50px 200px;
-}
-
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  font-size: 20px;
-  padding: 2px 5px 2px 5px;
-  text-align: left;
-}
-
-
-
 @media screen and (max-width: 670px) {
   .topnav a:not(:first-child) {
     display: none;
