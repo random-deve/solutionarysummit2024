@@ -59,6 +59,12 @@ body {
   transform: translateX(200px);
 }
 
+@media screen and (max-width: 800px) {
+  #left-text {
+    transform: translateX(0px);
+  }
+}
+
 .MO-GO-questions {
   background-color: rgb(62, 159, 221);
   background-clip: padding-box;
