@@ -16,3 +16,7 @@
 .speaker {
   transform: translateX(-100px);
 }
+
+.speaker p {
+  width: 60%;
+}

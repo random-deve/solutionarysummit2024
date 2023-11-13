@@ -1,9 +1,15 @@
 #sec1 {
   width: 80%;
   padding: 10px;
+  top: 250px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  transform: translateX(50px);
 }
 
 h1 {
+  text-align: center;
   color: black;
   font-size: 3em;
   margin: auto;
@@ -16,15 +22,6 @@ h1 {
   position: relative;
 }
 
-#sec1 {
-  z-index: 0;
-  position: relative;
-  top: 250px;
-  width: 80%;
-  text-align: center;
-  margin: auto;
-}
-
 .topnav #backgroundimg {
   background-image: url('../images/HomeBg.png');
   background-position: center center;
@@ -33,6 +30,10 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
+  #sec1 {
+    transform: translateX(0);
+  }
+
   h1 {
     font-size: 1.5em;
     text-align: left;
