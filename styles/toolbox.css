@@ -56,6 +56,7 @@ body {
 
 #left-text {
   text-align: left;
+  transform: translateX(200px);
 }
 
 .MO-GO-questions {
