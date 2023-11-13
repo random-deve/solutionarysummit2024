@@ -11,8 +11,9 @@
 }
 
 table {
-  margin: 50px 200px 50px 200px;
-  width: 100%;
+  margin: 50px auto 50px auto;
+  width: 80%;
+  border-spacing: 0;
 }
 
 th, td {
@@ -24,19 +25,19 @@ th, td {
 }
 
 th.Nature, td.Nature {
-  background-color: green;
+  background-color: rgb(128, 154, 128);
 }
 
 th.Economy, td.Economy {
-  background-color: blue;
+  background-color: rgb(118, 118, 193);
 }
 
 th.Society, td.Society {
-  background-color: orange;
+  background-color: rgb(197, 161, 95);
 }
 
 th.Wellbeing, td.Wellbeing {
-  background-color: red;
+  background-color: rgb(205, 141, 141);
 }
 
 
