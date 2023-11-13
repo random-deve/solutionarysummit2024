@@ -40,6 +40,13 @@ p {
   color: #f2f2f2;
   font-size: 40px;
   display: block;
+  transform: translateX(50px);
+}
+
+@media screen and (max-width: 600px) {
+  #register {
+    transform: translateX(0px);
+  }
 }
 
 /* navbar */
