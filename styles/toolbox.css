@@ -10,15 +10,6 @@ body {
   text-align: center;
 }
 
-#compass:hover {
-  transform: rotateZ(181deg);
-}
-
-#compass {
-  transition: 500ms;
-  transform: rotateZ(0deg);
-}
-
 .sustainabilityCompassText {
   margin: 150px 100px 100px 800px;
   margin-left: 900px;
