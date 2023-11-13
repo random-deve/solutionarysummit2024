@@ -1,0 +1,49 @@
+#sec1 {
+  width: 80%;
+  padding: 10px;
+}
+
+h1 {
+  color: black;
+  font-size: 3em;
+  margin: auto;
+  max-width: 50%;
+}
+
+#register {
+  margin: auto;
+  top: 30%;
+  position: relative;
+}
+
+#sec1 {
+  z-index: 0;
+  position: relative;
+  top: 250px;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.topnav #backgroundimg {
+  background-image: url('../images/HomeBg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+    text-align: left;
+    position: absolute;
+    transform: translateY(-50px);
+  }
+  .topnav {
+    height: 250px;
+  }
+  p {
+    font-size: 1em;
+    min-width: 90%;
+  }
+}

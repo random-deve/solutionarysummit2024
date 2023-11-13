@@ -1,0 +1,70 @@
+.topnav {
+  background-image: url('../images/Toolbox.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+body {
+  padding-top: 253px;
+  text-align: center;
+}
+
+.sustainabilityCompassText {
+  margin: 150px 100px 100px 800px;
+  margin-left: 900px;
+  
+}
+
+@media screen and (max-width: 1600px) {
+  .sustainabilityCompassText {
+    margin: 150px 50px 100px 800px
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .sustainabilityCompassText {
+    margin: 150px 0px 100px 800px
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .sustainabilityCompassText {
+    margin: 100px -25px 100px 775px
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .sustainabilityCompassText {
+    margin: 50px -25px 100px 775px
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sustainabilityCompassText {
+    margin: 200px;
+    float: none;
+    
+  }
+  img {
+    float: none;
+    padding: none;
+    margin: none;
+    text-align: center;
+  }
+}
+
+#left-text {
+  text-align: left;
+}
+
+.MO-GO-questions {
+  background-color: rgb(62, 159, 221);
+  background-clip: padding-box;
+  border: 0px rgb(245, 245, 245);
+  vertical-align: middle;
+  padding: 1px 1px;
+  float: left;
+  width: 40%;
+  margin-left: 10%;
+}

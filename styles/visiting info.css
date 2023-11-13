@@ -1,0 +1,12 @@
+#register {
+  margin: auto;
+  top: 30%;
+  position: relative;
+}
+
+.topnav {
+  background-image: url('../images/Visiting-Info.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
