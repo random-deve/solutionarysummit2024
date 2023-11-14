@@ -1,6 +1,7 @@
 #register {
   margin: auto;
-  top: 30%;
+  top: 30px;
+  transform: translateX(56px);
   position: relative;
 }
 
@@ -9,4 +10,27 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 150px;
+}
+
+#HotelInfoText {
+  width: 200px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: 800;
+  transform: translateX(55px);
+  border-radius: 10px;
+  margin-top: 100px;
+  background-color: #b3dfff;
+}
+
+#HotelInfoText:hover {
+  background-color: lightblue;
+}
+
+#HotelInfoContent {
+  transform: translateX(55px);
+}
+
+.hidden {
+  display: none;
 }

@@ -14,6 +14,12 @@ document.addEventListener("scroll", () => {
   if (document.body.scrollTop >= 20) {
     document.getElementById("topNav").style = "height: 60px;";
   } else {
-    document.getElementById("topNav").style = "height: 250px;"
+    document.getElementById("topNav").style = "height: 250px;";
   }
 });
+
+const b = document.getElementById("HotelInfoText");
+function e() {
+  c = document.getElementById("HotelInfoContent");
+  c.classList.toggle("hidden");
+}
