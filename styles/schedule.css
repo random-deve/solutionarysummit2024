@@ -5,6 +5,10 @@
   background-size: 150px;
 }
 
+table {
+  transform: translateX(50px);
+}
+
 th {
   text-align: left;
 }
