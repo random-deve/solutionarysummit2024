@@ -6,8 +6,7 @@
 }
 
 .sustainabilityCompassText {
-  margin: 150px 100px 100px 800px;
-  margin-left: 900px;
+  margin: 150px 100px 100px 900px;
 }
 
 table {
@@ -77,6 +76,10 @@ th.Wellbeing, td.Wellbeing {
     margin: none;
     text-align: center;
   }
+}
+
+.developmentGoals {
+  width: 80%;
 }
 
 #left-text {
