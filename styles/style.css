@@ -40,7 +40,6 @@ p {
   color: #f2f2f2;
   font-size: 40px;
   display: block;
-  transform: translateX(60px);
 }
 
 @media screen and (max-width: 600px) {
