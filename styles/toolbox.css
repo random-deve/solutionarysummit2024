@@ -112,7 +112,7 @@ th.Wellbeing, td.Wellbeing {
 .rightFloat {
   float: right;
   width: 40%;
-  margin-right: 10%;
+  margin-right: 150px;
   margin-left: 2%;
   margin-top: 15px;
 }
