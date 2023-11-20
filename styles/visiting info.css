@@ -28,3 +28,7 @@
 .hidden {
   display: none;
 }
+
+#googlemap {
+  margin-top: 30px;
+}
