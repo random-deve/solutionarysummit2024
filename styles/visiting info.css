@@ -4,7 +4,7 @@
   position: relative;
 }
 
-.topnav {
+#backgroundimg {
   background-image: url('../images/Visiting-Info.png');
   background-position: center center;
   background-repeat: no-repeat;
