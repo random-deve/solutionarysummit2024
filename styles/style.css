@@ -60,7 +60,6 @@ p {
   border-bottom: solid 2px rgb(20, 63, 109);
   height: 250px;
   z-index: 50;
-  background-size: cover;
 }
 
 .topnav #backgroun {
