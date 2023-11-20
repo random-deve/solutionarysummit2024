@@ -6,7 +6,7 @@
 }
 
 .sustainabilityCompassText {
-  margin: 150px 100px 100px 900px;
+  margin: 150px 100px 100px 800px;
 }
 
 table {
@@ -83,8 +83,13 @@ th.Wellbeing, td.Wellbeing {
 }
 
 #left-text {
+  margin-left: 25%;
   text-align: left;
-  transform: translateX(200px);
+}
+
+.subheadings {
+  font-size: 30px;
+  color: rgb(0, 61, 91);
 }
 
 @media screen and (max-width: 1000px) {
@@ -103,7 +108,7 @@ th.Wellbeing, td.Wellbeing {
 
 .leftFloat {
   float: left;
-  width: 35%;
+  width: 50%;
   margin-left: 10%;
   margin-right: 2%;
   margin-top: 15px;
@@ -111,7 +116,7 @@ th.Wellbeing, td.Wellbeing {
 
 .rightFloat {
   float: right;
-  width: 40%;
+  width: 25%;
   margin-right: 150px;
   margin-left: 2%;
   margin-top: 15px;
