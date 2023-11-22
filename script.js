@@ -25,3 +25,18 @@ function e() {
   c = document.getElementById("HotelInfoContent");
   c.classList.toggle("hidden");
 }
+
+try {
+  document.addEventListener('DOMContentLoaded', function () {
+    const compass = document.querySelector('.rotate-right');
+    let rotAngle = 0;
+
+    compass.addEventListener('click', function () {
+      rotAngle += 90;
+      this.style = `transform: rotate(${rotAngle}deg);`;
+      this.classList.toggle("clicked");
+    });
+  });
+} catch {
+  console.log("there is no compass here :C");
+}

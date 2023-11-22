@@ -5,6 +5,14 @@
   background-size: 150px;
 }
 
+.rotate-right {
+  transition: transform 0.5s ease-in-out;
+}
+
+.rotate-right.clicked {
+  transform: rotate(90deg);
+}
+
 .sustainabilityCompassText {
   margin: 250px 100px 100px 800px;
 }
