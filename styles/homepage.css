@@ -33,14 +33,14 @@ h1 {
 
 @media screen and (max-width: 600px) {
   #sec1 {
-    transform: translateX(0);
+    transform: translateX(-40px);
   }
 
   h1 {
     font-size: 1.5em;
     text-align: left;
     position: absolute;
-    transform: translateY(-50px);
+    transform: translate(100px, -20px);
   }
   .topnav {
     height: 250px;
