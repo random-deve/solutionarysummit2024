@@ -56,7 +56,7 @@ p {
   top: 0;
   width: 100%;
   transition: 275ms;
-  background-color: #3b6b8e;
+  background: linear-gradient(to right, rgb(0, 61, 91), rgb(0, 171, 229));
   overflow: hidden;
   border-bottom: solid 2px rgb(20, 63, 109);
   height: 250px;
