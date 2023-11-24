@@ -14,7 +14,7 @@
 }
 
 .sustainabilityCompassText {
-  margin: 300px 100px 100px 800px;
+  margin: 245px 100px 100px 800px;
 }
 
 table {
@@ -47,45 +47,6 @@ th.Wellbeing, td.Wellbeing {
   background-color: rgb(205, 141, 141);
 }
 
-
-@media screen and (max-width: 1600px) {
-  .sustainabilityCompassText {
-    margin: 150px 50px 100px 800px
-  }
-}
-
-@media screen and (max-width: 1500px) {
-  .sustainabilityCompassText {
-    margin: 150px 0px 100px 800px
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  .sustainabilityCompassText {
-    margin: 100px -25px 100px 775px
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  .sustainabilityCompassText {
-    margin: 50px -25px 100px 775px
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .sustainabilityCompassText {
-    margin: 200px;
-    float: none;
-    
-  }
-  img {
-    float: none;
-    padding: none;
-    margin: none;
-    text-align: center;
-  }
-}
-
 .developmentGoals {
   margin-top: 0;
   width: 80%;
@@ -99,12 +60,6 @@ th.Wellbeing, td.Wellbeing {
 .subheadings {
   font-size: 30px;
   color: rgb(0, 61, 91);
-}
-
-@media screen and (max-width: 1000px) {
-  #left-text {
-    transform: translateX(0px);
-  }
 }
 
 .MO-GO-questions {
