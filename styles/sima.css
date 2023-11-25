@@ -1,0 +1,6 @@
+#backgroundimg {
+  background-image: url('../images/Sima.png'); /* not yet existant, pls add */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
