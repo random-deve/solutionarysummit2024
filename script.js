@@ -1,5 +1,5 @@
 function toggleResponsive() {
-  var x = document.getElementById("topNav");
+  let x = document.getElementById("topNav");
   if (x.className === "topnav") {
     x.className += " responsive";
     x.style = "height: 375px;";
@@ -10,7 +10,7 @@ function toggleResponsive() {
 }
 
 document.addEventListener("scroll", () => {
-  var x = document.getElementById("topNav");
+  let x = document.getElementById("topNav");
   if (document.body.scrollTop >= 20) {
     x.style = "height: 60px;";
     document.getElementById("backgroundimg").style = "height: 0px;"
