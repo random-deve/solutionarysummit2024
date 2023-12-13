@@ -1,7 +1,11 @@
 
   (function ($) {
-  
+
+    
   "use strict";
+
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
 
     // MENU
     $('.navbar-collapse a').on('click',function(){
