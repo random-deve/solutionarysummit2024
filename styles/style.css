@@ -154,3 +154,7 @@ p {
   }
 }
 
+
+.hide {
+  display: none;
+}
